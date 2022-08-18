@@ -7,6 +7,9 @@ const context = canvas.getContext("2d");
 canvas.width = 800;
 canvas.height = 800;
 
+
+//moveTo 시작하는 좌표
+//lineTo 도착하는 좌표
 context.moveTo(50, 50);
 context.lineTo(150, 50);
 context.lineTo(150, 150);
